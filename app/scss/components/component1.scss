@@ -1,0 +1,126 @@
+@use '../util' as *;
+
+
+
+.wrapper {
+    margin-top: rem(125); //temp
+    margin-left: rem(165); //temp
+    margin-right: rem(165); //temp
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    .header {
+        &__title {
+            width: rem(400);
+            height: auto;
+            font-weight: 700;
+            font-size: rem(40);
+            color: var(--verydarkmagenta);
+        }
+        &__about {
+            width: rem(430);
+            height: auto;
+            font-size: rem(16);
+            color: var(--darkgrayishmagenta);
+        }
+    }
+    
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: rem(460);
+        row-gap: rem(20);
+        margin-top: rem(16);
+        transform: translateX(rem(70));
+
+        .review1 {
+            border-radius: rem(10);
+            display: flex;
+            padding: rem(16);
+            background-color: var(--lightgrayishmagenta);
+
+            &__stars {
+                height: rem(20);
+                width: auto;
+                padding-left: rem(8);
+            }
+        
+            &__about {
+                color: var(--verydarkmagenta);
+                font-size: rem(16);
+                font-weight: 700;
+                margin-left: rem(30);
+                margin-right: rem(20);
+            }
+        }
+        .review2 {
+            border-radius: rem(10);
+            display: flex;
+            padding: rem(16);
+            background-color: var(--lightgrayishmagenta);
+            transform: translateX(rem(45));
+            &__stars {
+                height: rem(20);
+                width: auto;
+                padding-left: rem(8);
+            }
+            &__about {
+                color: var(--verydarkmagenta);
+                font-size: rem(16);
+                font-weight: 700;
+                margin-left: rem(30);
+            }
+        }
+        .review3 {
+            border-radius: rem(10);
+            display: flex;
+            padding: rem(16);
+            background-color: var(--lightgrayishmagenta);
+            transform: translateX(rem(90));
+            &__stars {
+                height: rem(20);
+                width: auto;
+                padding-left: rem(8);
+            }
+            &__about {
+                color: var(--verydarkmagenta);
+                font-size: rem(16);
+                font-weight: 700;
+                margin-left: rem(30);
+                margin-right: rem(20);
+            }
+        }
+    }
+}
+
+.cards {
+    .c1 {
+        &__profile {
+    
+        }
+    
+        &__about {
+    
+        }
+    }
+    .c2 {
+        &__profile {
+    
+        }
+    
+        &__about {
+    
+        }
+    }
+    .c3 {
+        &__profile {
+    
+        }
+    
+        &__about {
+    
+        }
+    }
+}
