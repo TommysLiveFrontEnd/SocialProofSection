@@ -19,6 +19,8 @@ body {
 	height: 100vh;
 	background: url(../images/bg-pattern-bottom-desktop.svg) no-repeat;
 	background-position: center bottom;
+	background-position-x: 100%;
+
 
 	@include breakpoint-down(small) {
 		background: url(../images/bg-pattern-top-mobile.svg) no-repeat;
