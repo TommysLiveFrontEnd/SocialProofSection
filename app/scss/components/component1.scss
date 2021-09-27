@@ -1,15 +1,17 @@
 @use '../util' as *;
 
+
 .container {
-    margin-top: rem(125); //temp
-    margin-left: rem(165); //temp
-    margin-right: rem(165); //temp
+    margin-top: rem(125);
+    margin-left: rem(165); 
+    margin-right: rem(165); 
 }
 
 .topcontent {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+
 
     .header {
         &__title {
@@ -35,7 +37,6 @@
         row-gap: rem(20);
         margin-top: rem(16);
         transform: translateX(rem(70));
-
         .review1 {
             border-radius: rem(10);
             display: flex;
